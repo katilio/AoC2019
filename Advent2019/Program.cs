@@ -12,7 +12,7 @@ namespace Advent2019
     {
         public static string[] getInput(string filename)
         {
-            string path = "C:/Users/arodriguezcuadra/Downloads/AoC2019/" + filename;
+            string path = "A:/Downloads/" + filename;
             string[] input = File.ReadAllLines(@path).Select(s => s.TrimStart()).ToArray();
             return input;
         }
